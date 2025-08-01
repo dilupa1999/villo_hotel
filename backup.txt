@@ -1,0 +1,165 @@
+
+    <!-- Blog section start -->
+    <section class="blog-section space-top bg3">
+        <div class="container">
+            <div class="blog-head-area mb-50 d-flex align-items-end justify-content-between gap-3 flex-wrap">
+                <div class="section-title">
+                    <span class="sub-font wow fadeInUp">News & Blog</span>
+                    <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                        Our Latest news <br> & Blogs
+                    </h2>
+                </div>
+                <a href="#" class="theme-btn fw-normal text-capitalize gap-1 py-3 px-6">
+                    Read All Post
+                </a>
+            </div>
+            <div class="row g-md-4 g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-single-item white-bg p-xxl-4 p-3 wow fadeInUp" data-wow-delay=".4s">
+                        <a href="#" class="thumb d-block mb-4 w-100 overflow-hidden">
+                            <img src="assets/img/blog/blog-grid1.jpg" alt="img" class="w-100 overflow-hidden">
+                        </a>
+                        <div class="content">
+                            <ul class="blog-admin d-flex align-items-center gap-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-regular fa-user"></i> By Admin
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-regular fa-clock"></i> 25 September, 2025
+                                </li>
+                            </ul>
+                            <h3>
+                                <a href="#" class="fw-semibold">
+                                    Unveiling Michelin-Starred Restaurants at Top
+                                    Luxury Hotels
+                                </a>
+                            </h3>
+                            <a href="#" class="view-more d-flex align-items-center gap-3">
+                                <span class="view-text">View More</span>
+                                <span class="icon black-bg d-center"><i
+                                        class="fa-solid fa-arrow-right white-clr fs-14"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-single-item white-bg p-xxl-4 p-3 wow fadeInUp" data-wow-delay=".6s">
+                        <a href="#" class="thumb d-block mb-4 w-100 overflow-hidden">
+                            <img src="assets/img/blog/blog-grid2.jpg" alt="img" class="w-100 overflow-hidden">
+                        </a>
+                        <div class="content">
+                            <ul class="blog-admin d-flex align-items-center gap-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-regular fa-user"></i> By Admin
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-regular fa-clock"></i> 25 September, 2025
+                                </li>
+                            </ul>
+                            <h3>
+                                <a href="#" class="fw-semibold">
+                                    Top 5 Luxury Hotels The Ultimate in Secluded Luxury
+                                </a>
+                            </h3>
+                            <a href="#" class="view-more d-flex align-items-center gap-3">
+                                <span class="view-text">View More</span>
+                                <span class="icon black-bg d-center"><i
+                                        class="fa-solid fa-arrow-right white-clr fs-14"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="blog-single-item white-bg p-xxl-4 p-3 wow fadeInUp" data-wow-delay=".7s">
+                        <a href="#" class="thumb d-block mb-4 w-100 overflow-hidden">
+                            <img src="assets/img/blog/blog-grid3.jpg" alt="img" class="w-100 overflow-hidden">
+                        </a>
+                        <div class="content">
+                            <ul class="blog-admin d-flex align-items-center gap-3">
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-regular fa-user"></i> By Admin
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <i class="fa-regular fa-clock"></i> 25 September, 2025
+                                </li>
+                            </ul>
+                            <h3>
+                                <a href="#" class="fw-semibold">
+                                    Unveiling Michelin-Starred Restaurants at Top
+                                    Luxury Hotels
+                                </a>
+                            </h3>
+                            <a href="#" class="view-more d-flex align-items-center gap-3">
+                                <span class="view-text">View More</span>
+                                <span class="icon black-bg d-center"><i
+                                        class="fa-solid fa-arrow-right white-clr fs-14"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories section start -->
+    <section class="stories-section section-padding fix bg3">
+        <div class="container">
+            <div class="section-title text-center mb-50">
+                <span class="sub-font wow fadeInUp">Stories</span>
+                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
+                    Follow Us on <br> Instagram
+                </h2>
+            </div>
+            <div class="stories-wrapper">
+                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".3s">
+                    <img src="assets/img/global/stories1.jpg" alt="img" class="w-100">
+                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".5s">
+                    <img src="assets/img/global/stories2.jpg" alt="img" class="w-100">
+                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".7s">
+                    <img src="assets/img/global/stories3.jpg" alt="img" class="w-100">
+                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".3s">
+                    <img src="assets/img/global/stories4.jpg" alt="img" class="w-100">
+                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".5s">
+                    <img src="assets/img/global/stories5.jpg" alt="img" class="w-100">
+                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Book Video section start -->
+    <section class="video-section fix space-bottom">
+        <div class="luxuries-wrap d-center position-relative">
+            <img src="assets/img/global/luxuries-video-bg.jpg" alt="img" class="w-100 mimg">
+            <a href="https://www.youtube.com/watch?v=lMJImKo-eZU"
+                class="luxuries-vid position-absolute rounded-circle d-center video-popup">
+                <i class="fa-solid fa-play"></i>
+            </a>
+        </div>
+        <div class="container">
+            <div class="watching-information-wrap wow fadeInUp" data-wow-delay=".4s">
+                <div class="box text-center">
+                    <h2 class="black-clr mb-3 wow fadeInUp" data-wow-delay=".5s">Book Our Hotel Right Now!</h2>
+                    <p class="mb-4 pb-lg-2 fs18 black-clr wow fadeInUp" data-wow-delay=".6s">
+                        We pride ourselves on offering personalized service that caters to your every need. Our
+                        dedicated team is committed
+                    </p>
+                    <form action="#">
+                        <input type="text" placeholder="Enter your e-mail">
+                        <button type="button"
+                            class="theme-btn py-sm-3 py-3 fw-normal text-capitalize gap-1 px-sm-4 px-4">
+                            Book Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>

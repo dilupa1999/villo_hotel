@@ -2337,7 +2337,7 @@ span {
 }
 
 .footer-widget-wrapper {
-  padding: 100px 0 80px;
+  padding: 30px 0px;
 }
 .footer-widget-wrapper .single-footer-widget .widget-head {
   margin-bottom: 28px;
@@ -2409,11 +2409,11 @@ span {
 
 .footer-bottom {
   border-top: 1px solid #32353f;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 @media (max-width: 1199px) {
   .footer-bottom {
-    padding: 22px 0;
+    padding: 10px 0;
   }
 }
 
@@ -5549,16 +5549,16 @@ span {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
-    padding: 100px 0;
+    padding: 30px 0;
   }
 }
 @media (max-width: 991px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 30px 0;
   }
 }
 
@@ -6516,3 +6516,12 @@ span {
     padding-bottom: 80px;
   }
 }/*# sourceMappingURL=main.css.map */
+
+/*udara was here*/
+
+.rounded-circle{
+  border-radius: 9999px !important;
+  aspect-ratio: 1/1 !important;
+  height: 100px;
+  object-fit: cover;
+}
