@@ -4438,7 +4438,7 @@ span {
 }
 
 .breadcrumb-section {
-  background: url(../img/hero/breadcrumb-bg.jpg) no-repeat center center;
+  background: url(../img/hero/kandy-1.webp) no-repeat center center;
   background-size: cover;
   padding: 250px 0 150px;
   position: relative;
@@ -6525,3 +6525,35 @@ span {
   height: 100px;
   object-fit: cover;
 }
+
+.history-timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        
+        .history-timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #8B4513;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -38px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #8B4513;
+            border: 3px solid white;
+        }

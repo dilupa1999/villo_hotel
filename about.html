@@ -36,13 +36,90 @@
 
 <body class="body-bg">
 
-    <!-- Back To Top start -->
-    <!-- <button id="back-top" class="back-to-top">
-            <i class="fa-regular fa-arrow-up"></i>
-        </button> -->
-
-    <!-- Offcanvas Area Start -->
-  
+  <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+        <div class="offcanvas__info">
+            <div class="offcanvas__wrapper">
+                <div class="offcanvas__content">
+                    <div class="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
+                        <div class="offcanvas__logo">
+                            <a href="index.html">
+                                <img src="assets/img/vh-logo.png" alt="logo-img" width="100" style="border-radius: 999px;">
+                            </a>
+                        </div>
+                        <div class="offcanvas__close">
+                            <button>
+                                <i class="fas fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mobile-menu fix mb-3"></div>
+                    <div class="offcanvas__contact">
+                        <div class="mb-4 d-xl-block d-none">
+                            <h4 class="mb-2">Demo</h4>
+                            <a href="index.html" class="w-75 d-center">
+                                <img src="assets/img/hero/home1.jpg" alt="img" class="w-100">
+                            </a>
+                        </div>
+                        <h4>Contact Info</h4>
+                        <ul>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">
+                                        No. 614, Colombo road, Nanuoya, Pilimathalawa, Kandy
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="mailto:villohotels@gmail">
+                                        <span>villohotels@gmail.com</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="fal fa-clock"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a target="_blank" href="#">Sat-friday, 02am - 09pm</a>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <div class="offcanvas__contact-icon mr-15">
+                                    <i class="far fa-phone"></i>
+                                </div>
+                                <div class="offcanvas__contact-text">
+                                    <a href="tel:+94773116657" class="d-block">
+                                        077 311 6657
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="header-button mt-4">
+                            <a href="rooms.html"
+                                class="theme-btn d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs-16 rounded-1 fw-500 black-clr overflow-hidden">
+                                Book Now
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="offcanvas__overlay"></div>
 
@@ -69,7 +146,12 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="room-grid.html">
+                                            <a href="about.html">
+                                                About Us
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="rooms.html">
                                                 Rooms <i class="fas fa-angle-down"></i>
                                             </a>
                                             <ul class="submenu">
@@ -79,7 +161,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="restaurant.html">RESTAURANT</a>
+                                            <a href="restaurant.html">Restaurant</a>
                                         </li>
                                  
                                 
@@ -90,27 +172,9 @@
                                 </nav>
                             </div>
                         </div>
-                        <a href="#0" class="search-trigger d-lg-none d-block">
-                            <img src="assets/img/icon/search.png" alt="img">
-                        </a>
-                        <button type="button" class="tolly-icon position-relative d-lg-none d-block">
-                            <img src="assets/img/icon/tolly.png" alt="tolly-icon">
-                            <span class="count-quan d-center">02</span>
-                        </button>
-                        <div class=" d-lg-none my-auto">
-                            <div class="sidebar__toggle">
-                                <img src="assets/img/icon/bars.png" alt="icon">
-                            </div>
-                        </div>
                     </div>
-                    <div class="d-lg-flex d-none align-items-center gap-xxl-4 gap-3">
-                        <a href="#0" class="search-trigger">
-                            <img src="assets/img/icon/search.png" alt="img">
-                        </a>
-                        <button type="button" class="tolly-icon position-relative">
-                            <img src="assets/img/icon/tolly.png" alt="tolly-icon">
-                            <span class="count-quan d-center">02</span>
-                        </button>
+                    <div class="d-none d-xl-flex"></div>
+                    <div class="d-flex d-xl-none align-items-center gap-xxl-4 gap-3">
                         <button type="button" class="destop-bars sidebar__toggle">
                             <img src="assets/img/icon/bars.png" alt="img">
                         </button>
@@ -140,44 +204,37 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="about-content mb-50">
                             <div class="section-title">
-                                <span class="sub-font mb-xxl-4 mb-3 d-block wow fadeInUp">About Helexa</span>
+                                <span class="sub-font mb-xxl-4 mb-3 d-block wow fadeInUp">About Villo Hotels</span>
                                 <h2 class="wow fadeInUp fw-semibold mb-lg-3 mb-2" data-wow-delay=".3s">
-                                    A World of Elegance & Comfort Awaits You
+                                    Where Sri Lankan Hospitality Meets Modern Luxury
                                 </h2>
                             </div>
                             <p class="fs-18 pra-clr mb-sm-4 mb-3 pb-xxl-2">
-                                We pride ourselves on offering personalized service that caters to your every need. Our
-                                dedicated team is committed to
-                                making every
-                                you're relaxing at our state-of-the-art spa, enjoying meal.
+                                Nestled in the cultural heart of Sri Lanka, Villo Hotels Kandy offers an extraordinary blend of traditional charm and contemporary elegance. Experience the warmth of Sri Lankan hospitality while enjoying world-class amenities and breathtaking views of the sacred city.
                             </p>
-                            <a href="contact.html" class="theme-btn fw-normal text-capitalize gap-1 px-6">
-                                Discover More
-                            </a>
+                            <a href="#" class="theme-btn fw-normal text-capitalize gap-1 px-6">Discover More</a>
                         </div>
-                        <div class="about-thumb1 img-hover w-100">
-                            <img src="assets/img/about/about1.jpg" alt="img" class="w-100">
+                        <div class="about-thumb1 w-100">
+                            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Villo Hotels Kandy" class="w-100">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="thumb2-wrap">
-                            <div class="thumb1 img-hover mb-4 w-100 wow fadeInDown" data-wow-delay=".4s">
-                                <img src="assets/img/about/about2.jpg" alt="img" class="w-100">
+                            <div class="thumb1 mb-4 w-100 wow fadeInDown" data-wow-delay=".4s">
+                                <img src="assets/img/hero/temple-of-tooth.webp" alt="Temple of the Tooth" class="w-100">
                             </div>
-                            <div class="thumb2-inne">
+                            <div class="thumb2-inne d-flex gap-3">
                                 <div class="thumb-small wow fadeInRight" data-wow-delay=".3s">
-                                    <img src="assets/img/about/about3.jpg" alt="img">
+                                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Kandy Lake">
                                 </div>
-                                <div class="about-textcircle d-center position-relative wow fadeInUp"
-                                    data-wow-delay=".5s">
-                                    <img src="assets/img/about/about-text-circle.png" alt="img">
-                                    <div class="boxes position-absolute">
+                                <div class="about-textcircle d-center position-relative wow fadeInUp" data-wow-delay=".5s">
+                                    <div class="boxes">
                                         <span class="exprience d-flex align-items-end justify-content-center">
-                                            25
-                                            <span class="text-uppercase year">YR</span>
+                                            15<span class="text-uppercase year fs-16"> YEARS</span>
                                         </span>
-                                        <p class="fs-20 pra-clr text-nowrap d-block heading-font text-capitalize">Of
-                                            Experiences</p>
+                                        <p class="fs-16 text-nowrap d-block heading-font text-capitalize mt-2">
+                                            Of Excellence
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -186,35 +243,107 @@
                 </div>
             </div>
         </div>
-        <!-- Ele -->
-        <img src="assets/img/element/about-shape-left.png" alt="img" class="about-shape-left">
-        <img src="assets/img/element/about-shape-right.png" alt="img" class="about-shape-right">
     </section>
 
-    <!-- Book Video section start -->
-    <section class="video-section fix space-bottom">
-        <div class="luxuries-wrap d-center position-relative">
-            <img src="assets/img/global/luxuries-video-bg.jpg" alt="img" class="w-100 mimg">
-            <a href="https://www.youtube.com/watch?v=lMJImKo-eZU"
-                class="luxuries-vid position-absolute rounded-circle d-center video-popup">
-                <i class="fa-solid fa-play"></i>
-            </a>
-        </div>
+    <!-- Mission & Values -->
+    <section class="py-5 bg-light">
         <div class="container">
-            <div class="watching-information-wrap wow fadeInUp" data-wow-delay=".4s">
-                <div class="box text-center">
-                    <h2 class="black-clr mb-3 wow fadeInUp" data-wow-delay=".5s">Book Our Hotel Right Now!</h2>
-                    <p class="mb-4 pb-lg-2 fs18 black-clr wow fadeInUp" data-wow-delay=".6s">
-                        We pride ourselves on offering personalized service that caters to your every need. Our
-                        dedicated team is committed
-                    </p>
-                    <form action="#">
-                        <input type="text" placeholder="Enter your e-mail">
-                        <button type="button"
-                            class="theme-btn py-sm-3 py-3 fw-normal text-capitalize gap-1 px-sm-4 px-4">
-                            Book Now
-                        </button>
-                    </form>
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Our Mission & Values</h2>
+                <p class="lead">Guiding principles that shape our hospitality</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center p-4 h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4>Exceptional Service</h4>
+                        <p>We go above and beyond to anticipate and fulfill our guests' needs with warmth and professionalism.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-4 h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Sustainable Luxury</h4>
+                        <p>We combine luxury with responsibility, implementing eco-friendly practices throughout our operations.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-4 h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Cultural Preservation</h4>
+                        <p>We celebrate and preserve Kandyan heritage through architecture, cuisine, and cultural experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Timeline -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-5">Our Journey</h2>
+            <div class="history-timeline">
+                <div class="timeline-item">
+                    <h4>2005</h4>
+                    <p>Villo Hotels opened its doors as a 12-room boutique property, quickly gaining recognition for its personalized service.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2010</h4>
+                    <p>Expanded to 30 rooms and added our award-winning spa, becoming a preferred choice for wellness travelers.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2015</h4>
+                    <p>Celebrated our 10th anniversary with a complete renovation and the opening of our rooftop infinity pool.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2020</h4>
+                    <p>Implemented comprehensive sustainability initiatives, achieving Green Globe certification.</p>
+                </div>
+                <div class="timeline-item">
+                    <h4>2023</h4>
+                    <p>Recognized as "Best Luxury Hotel in Kandy" by Sri Lanka Tourism Awards for the third consecutive year.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Meet Our Leadership</h2>
+                <p class="lead">The passionate team behind Villo Hotels</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="General Manager" class="mb-3 rounded-circle">
+                        <h4>Nayana Perera</h4>
+                        <p class="text-muted">General Manager</p>
+                        <p>With 20+ years in luxury hospitality, Nayana ensures every guest experiences the magic of Kandy.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Head Chef" class="mb-3 rounded-circle">
+                        <h4>Rajiv Fernando</h4>
+                        <p class="text-muted">Executive Chef</p>
+                        <p>Blending traditional Sri Lankan flavors with contemporary techniques to create unforgettable dining.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member text-center">
+                        <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Guest Relations" class="mb-3 rounded-circle">
+                        <h4>Shamila Rathnayake</h4>
+                        <p class="text-muted">Director of Guest Experience</p>
+                        <p>Her team crafts personalized itineraries to help guests discover Kandy's hidden treasures.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -325,263 +454,54 @@
         <img src="assets/img/element/suites-shape.png" alt="img" class="book-flower2">
     </section>
 
-    <!-- Offer section start -->
-    <section class="offer-section section-padding">
+    <!-- Awards Section -->
+    <section class="py-5 bg-dark text-white">
         <div class="container">
-            <div class="blog-head-area mb-50 d-flex align-items-end justify-content-between gap-3 flex-wrap">
-                <div class="section-title">
-                    <span class="sub-font wow fadeInUp">Exclusive Offer</span>
-                    <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
-                        Exclusive Offer For <br> you
-                    </h2>
-                </div>
-                <h3 class="black-clr fw-bold">
-                    <span class="text-decoration-underline">Get 30% Discount</span> <span class="fw-500">on hotels <br>
-                        Booking with above <br> Websites.</span>
-                </h3>
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-white">Our Accolades</h2>
+                <p class="lead">Recognitions that inspire us to excel</p>
             </div>
-            <div class="row g-md-4 g-4 mb-50">
-                <div class="col-md-6 col-lg-4">
-                    <div class="offer-single-item wow fadeInUp" data-wow-delay=".4s">
-                        <div class="content">
-                            <h5 class="sub-font fw-normal white-clr">Discount</h5>
-                            <h3 class="fs-32 heading-font white-clr mb-xxl-4 mb-xl-3 mb-3">
-                                <a href="contact.html" class="fw-semibold white-clr">
-                                    Restaurant <br> Package
-                                </a>
-                            </h3>
-                            <a href="contact.html" class="theme-btn fw-normal text-capitalize gap-1 py-3">
-                                GET 30% OFF
-                            </a>
-                        </div>
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-6">
+                    <div class="p-3">
+                        <i class="fas fa-award fa-3x mb-3" style="color: var(--theme);"></i>
+                        <h5 class="text-white">Best Luxury Hotel</h5>
+                        <p>Sri Lanka Tourism Awards 2023</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="offer-single-item style2 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="content">
-                            <h5 class="sub-font fw-normal white-clr">Wellness</h5>
-                            <h3 class="fs-32 heading-font white-clr mb-xxl-4 mb-xl-3 mb-3">
-                                <a href="contact.html" class="fw-semibold white-clr">
-                                    Spa <br> Package
-                                </a>
-                            </h3>
-                            <a href="contact.html" class="theme-btn fw-normal text-capitalize gap-1 py-3">
-                                GET 30% OFF
-                            </a>
-                        </div>
+                <div class="col-md-3 col-6">
+                    <div class="p-3">
+                        <i class="fas fa-leaf fa-3x mb-3" style="color: var(--theme);"></i>
+                        <h5 class="text-white">Green Globe Certified</h5>
+                        <p>Sustainable Tourism 2022</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="offer-single-item style3 wow fadeInUp" data-wow-delay=".4s">
-                        <div class="content">
-                            <h5 class="sub-font fw-normal white-clr">Exclusive</h5>
-                            <h3 class="fs-32 heading-font white-clr mb-xxl-4 mb-xl-3 mb-3">
-                                <a href="contact.html" class="fw-semibold white-clr">
-                                    Honeymoon <br> Package
-                                </a>
-                            </h3>
-                            <a href="contact.html" class="theme-btn fw-normal text-capitalize gap-1 py-3">
-                                GET 30% OFF
-                            </a>
-                        </div>
+                <div class="col-md-3 col-6">
+                    <div class="p-3">
+                        <i class="fas fa-utensils fa-3x mb-3" style="color: var(--theme);"></i>
+                        <h5 class="text-white">Culinary Excellence</h5>
+                        <p>Asia's 50 Best Restaurants 2021</p>
                     </div>
                 </div>
-            </div>
-            <div class="text-center">
-                <a href="room-list.html" class="theme-btn header-bg fw-normal text-capitalize gap-1 px-6">
-                    Discovery Tour
-                </a>
-            </div>
-        </div>
-        <!-- Ele -->
-        <img src="assets/img/element/offoer-shape.png" alt="img" class="offer-ele">
-    </section>
-
-    <!-- Testimonial section start -->
-    <section class="testimonial-section section-padding fix">
-        <div class="container position-relative">
-            <div class="swiper testimonial-slider">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="testimonial-items1 text-center">
-                            <div class="testi-admin mb-4 pb-lg-2">
-                                <img src="assets/img/testimonial/testi-admin.png" alt="img" class="rounded-circle">
-                            </div>
-                            <div class="d-flex justify-content-center gap-1 mb-lg-4 mb-3">
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                                <i class="fa-solid fa-star fs-16 ratting-clr"></i>
-                            </div>
-                            <h3 class="text-pra heading-font fw-500 position-relative">
-                                From the moment we arrived, we were treated like royalty. The staff anticipated our
-                                every need, from greeting us by name
-                                to ensuring our room was perfect. They even surprised us with a beautifully crafted cake
-                                for our anniversary! The suite
-                                was spacious and had stunning city views.
-                                <img src="assets/img/element/quote-opa.png" alt="img" class="quote-opa">
-                            </h3>
-                            <div class="d-flex align-items-center justify-content-between">
-                                <img src="assets/img/element/testi-quote1.png" alt="img" class="quotes">
-                                <div class="emma">
-                                    <h3 class="fs-32 mb-sm-2 mb-1 fw-bold black-clr">
-                                        Emma & James L.
-                                    </h3>
-                                    <span class="heading-font fs-20 fw-500 black-clr d-block">New York City</span>
-                                </div>
-                                <img src="assets/img/element/testi-quote1.png" alt="img" class="quotes">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="testimonial-btngrap">
-                <button type="button" class="common-slide-btn d-center rounded-circle array-prev">
-                    <i class="fa-solid fa-angle-left"></i>
-                </button>
-                <button type="button" class="common-slide-btn d-center rounded-circle array-next">
-                    <i class="fa-solid fa-angle-right"></i>
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Faq Section -->
-    <section class="faq-section section-padding common-bg">
-        <div class="container">
-            <div class="section-title mb-50">
-                <span class="sub-font wow fadeInUp">Faqs</span>
-                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
-                    Frequently Asked Questions <br> For Our Hotel Systems
-                </h2>
-            </div>
-            <div class="row g-4 align-items-center">
-                <div class="col-lg-6">
-                    <div class="faq-thumb img-hover w-100 pe-lg-4 wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/img/global/faq-thumb.jpg" alt="img" class="w-100 rounded-4">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="accordion custom-accordion d-grid gap-4" id="accordionExample">
-                        <div class="accordion-item bg-transparent wow fadeInUp" data-wow-delay=".3s">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    How do I make a Reservations?
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body pt-xl-3 pt-2">
-                                    <p class="fs-16">
-                                        Could you clarify what kind of reservations you're referring to? It could be
-                                        anything from booking a restaurant table to
-                                        making a hotel or event reservation. Let me know what you need, and I can guide
-                                        you through the process!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="accordion-item bg-transparent wow fadeInUp" data-wow-delay=".5s">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button bg-transparent collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
-                                    aria-controls="collapseTwo">
-                                    What forms of payment do you accept?
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body pt-xl-3 pt-2">
-                                    <p class="fs-16">
-                                        Could you clarify what kind of reservations you're referring to? It could be
-                                        anything from booking a restaurant table to
-                                        making a hotel or event reservation. Let me know what you need, and I can guide
-                                        you through the process!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="accordion-item bg-transparent wow fadeInUp" data-wow-delay=".6s">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button bg-transparent collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                                    aria-controls="collapseThree">
-                                    Can I request a room with a Specific view?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body pt-xl-3 pt-2">
-                                    <p class="fs-16">
-                                        Could you clarify what kind of reservations you're referring to? It could be
-                                        anything from booking a restaurant table to
-                                        making a hotel or event reservation. Let me know what you need, and I can guide
-                                        you through the process!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="accordion-item bg-transparent wow fadeInUp" data-wow-delay=".7s">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button bg-transparent collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
-                                    aria-controls="collapseFour">
-                                    Our Gateway to luxury living?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body pt-xl-3 pt-2">
-                                    <p class="fs-16">
-                                        Could you clarify what kind of reservations you're referring to? It could be
-                                        anything from booking a restaurant table to
-                                        making a hotel or event reservation. Let me know what you need, and I can guide
-                                        you through the process!
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-md-3 col-6">
+                    <div class="p-3">
+                        <i class="fas fa-spa fa-3x mb-3" style="color: var(--theme);"></i>
+                        <h5 class="text-white">Best Spa Retreat</h5>
+                        <p>World Luxury Hotel Awards 2020</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Stories section start -->
-    <section class="stories-section section-padding fix bg3">
-        <div class="container">
-            <div class="section-title text-center mb-50">
-                <span class="sub-font wow fadeInUp">Stories</span>
-                <h2 class="fw-semibold wow fadeInUp" data-wow-delay=".3s">
-                    Follow Us on <br> Instagram
-                </h2>
-            </div>
-            <div class="stories-wrapper">
-                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".3s">
-                    <img src="assets/img/global/stories1.jpg" alt="img" class="w-100">
-                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
-                </a>
-                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".5s">
-                    <img src="assets/img/global/stories2.jpg" alt="img" class="w-100">
-                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
-                </a>
-                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".7s">
-                    <img src="assets/img/global/stories3.jpg" alt="img" class="w-100">
-                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
-                </a>
-                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".3s">
-                    <img src="assets/img/global/stories4.jpg" alt="img" class="w-100">
-                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
-                </a>
-                <a href="#" class="stories-item wow fadeInUp" data-wow-delay=".5s">
-                    <img src="assets/img/global/stories5.jpg" alt="img" class="w-100">
-                    <span class="ista d-center"><i class="fa-brands fa-instagram"></i></span>
-                </a>
+    <!-- Call to Action -->
+    <section class="py-5" style="background-color:  var(--theme);">
+        <div class="container text-center text-white">
+            <h2 class="fw-bold text-white mb-4">Experience Villo Hotels</h2>
+            <p class="lead mb-4">Discover why we're Kandy's most celebrated luxury hotel</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-light btn-lg">Book Your Stay</a>
+                <a href="#" class="btn btn-outline-light btn-lg">Contact Us</a>
             </div>
         </div>
     </section>
@@ -591,24 +511,17 @@
         <div class="container">
             <div class="footer-widget-wrapper">
                 <div class="row g-5">
-                    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                         <div class="single-footer-widget">
                             <div class="widget-head">
                                 <a href="index.html">
-                                    <img src="assets/img/logo/logo-white.png" alt="logo-img">
+                                        <img src="assets/img/vh-logo.png" width="100" alt="logo-img">
                                 </a>
                             </div>
                             <div class="footer-content">
                                 <p class="fs-16 text-clr">
-                                    Pharetra maecenas felis vestibulum
-                                    convallis mollis nullam congue sit.d rivers of Finland Quebec.
+                                    Villo Hotels Kandy offers an extraordinary blend of traditional charm and contemporary elegance.
                                 </p>
-                                <form action="#" class="adjust-form d-flex align-items-center">
-                                    <input type="text" placeholder="Enter your mail">
-                                    <button type="submit" class="theme-btn py-2 px-2 d-center">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </button>
-                                </form>
                                 <div class="social-cmn d-flex align-items-center gap-2 wow fadeInUp"
                                     data-wow-delay=".5s">
                                     <a href="#" class="d-center rounded-circle"><i class="fab fa-facebook-f"></i></a>
@@ -622,7 +535,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-md-5 col-sm-6 wow fadeInUp"
+                    <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-sm-6 wow fadeInUp"
                         data-wow-delay=".4s">
                         <div class="single-footer-widget">
                             <div class="widget-head fs-20 white-clr fw-semibold">
@@ -630,24 +543,24 @@
                             </div>
                             <ul class="important-link d-grid gap-sm-2 gap-1">
                                 <li>
-                                    <a href="room-grid.html">Rooms</a>
+                                    <a href="#">Rooms</a>
                                 </li>
                                 <li>
-                                    <a href="about.html">About Us</a>
+                                    <a href="#">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="service.html">Services</a>
+                                    <a href="#">Services</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Transport Guide</a>
+                                    <a href="#">Transport Guide</a>
                                 </li>
                                 <li>
-                                    <a href="contact.html">Transport Guide</a>
+                                    <a href="#">Transport Guide</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-md-5 col-sm-6 wow fadeInUp"
+                    <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-sm-6 wow fadeInUp"
                         data-wow-delay=".3s">
                         <div class="single-footer-widget">
                             <div class="widget-head fs-20 white-clr fw-semibold">
@@ -667,7 +580,7 @@
                                             stroke-linejoin="round" />
                                     </svg>
                                     <a href="#">
-                                        8502 Preston Rd. Inglewood, Maine 98380
+                                        	No. 614, Colombo road, Nanuoya, Pilimathalawa, Kandy
                                     </a>
                                 </li>
                                 <li class="d-flex align-items-center gap-xl-3 gap-2">
@@ -680,7 +593,7 @@
 
 
                                     <a href="#">
-                                        (603) 555-0123
+                                        	077 311 6657
                                     </a>
                                 </li>
                                 <li class="d-flex align-items-center gap-xl-3 gap-2">
@@ -708,7 +621,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-md-5 col-sm-6 wow fadeInUp"
+                    <div class="d-flex justify-content-sm-center col-xl-3 col-lg-3 col-sm-6 wow fadeInUp"
                         data-wow-delay=".5s">
                         <div class="single-footer-widget">
                             <div class="widget-head fs-20 white-clr fw-semibold">
@@ -719,20 +632,12 @@
                                 we support all options.
                             </p>
                             <div class="d-flex align-items-center gap-xxl-3 gap-2 flex-wrap">
-                                <button type="button">
-                                    <img src="assets/img/hero/payneer.png" alt="payment">
-                                </button>
+                                
                                 <button type="button">
                                     <img src="assets/img/hero/master.png" alt="payment">
                                 </button>
                                 <button type="button">
-                                    <img src="assets/img/hero/paypal.png" alt="payment">
-                                </button>
-                                <button type="button">
-                                    <img src="assets/img/hero/app-master.png" alt="payment">
-                                </button>
-                                <button type="button">
-                                    <img src="assets/img/hero/stripe.png" alt="payment">
+                                    <img src="assets/img/hero/visa.png" width="30" height="24" style="background-color: white; border-radius: 3px; object-fit: contain;" alt="payment">
                                 </button>
                             </div>
                         </div>
@@ -740,7 +645,7 @@
                 </div>
             </div>
             <p class="footer-bottom fs-16 text-center">
-                Copyright &copy; <a href="#" class="theme-clr">Helexa</a> | All Right Reserved
+                2025 © All Rights Reserved | Villo Hotel | Designed & Developed by Silicon Radon Networks (Pvt) Ltd.
             </p>
         </div>
     </footer>
